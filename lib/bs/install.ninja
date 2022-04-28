@@ -1,0 +1,45 @@
+rescript = 1
+rule cp
+  command = cp $i $out
+rule touch
+ command = touch $out
+o Demo-Game_new.cmi : cp ../bs/src/Demo-Game_new.cmi
+o Demo-Game_new.cmj : cp ../bs/src/Demo-Game_new.cmj
+o Demo-Game_new.cmt : cp ../bs/src/Demo-Game_new.cmt
+o Demo.re : cp ../../src/Demo.re
+o Game-Game_new.cmi : cp ../bs/src/Game-Game_new.cmi
+o Game-Game_new.cmj : cp ../bs/src/Game-Game_new.cmj
+o Game-Game_new.cmt : cp ../bs/src/Game-Game_new.cmt
+o Game.re : cp ../../src/Game.re
+o Player-Game_new.cmi : cp ../bs/src/Player-Game_new.cmi
+o Player-Game_new.cmj : cp ../bs/src/Player-Game_new.cmj
+o Player-Game_new.cmt : cp ../bs/src/Player-Game_new.cmt
+o Player.re : cp ../../src/Player.re
+o Referee-Game_new.cmi : cp ../bs/src/Referee-Game_new.cmi
+o Referee-Game_new.cmj : cp ../bs/src/Referee-Game_new.cmj
+o Referee-Game_new.cmt : cp ../bs/src/Referee-Game_new.cmt
+o Referee.re : cp ../../src/Referee.re
+o AIPlayer-Game_new.cmi : cp ../bs/src/AIPlayer-Game_new.cmi
+o AIPlayer-Game_new.cmj : cp ../bs/src/AIPlayer-Game_new.cmj
+o AIPlayer-Game_new.cmt : cp ../bs/src/AIPlayer-Game_new.cmt
+o AIPlayer.re : cp ../../src/AIPlayer.re
+o Connect4-Game_new.cmi : cp ../bs/src/Connect4-Game_new.cmi
+o Connect4-Game_new.cmj : cp ../bs/src/Connect4-Game_new.cmj
+o Connect4-Game_new.cmt : cp ../bs/src/Connect4-Game_new.cmt
+o Connect4.re : cp ../../src/Connect4.re
+o HumanPlayer-Game_new.cmi : cp ../bs/src/HumanPlayer-Game_new.cmi
+o HumanPlayer-Game_new.cmj : cp ../bs/src/HumanPlayer-Game_new.cmj
+o HumanPlayer-Game_new.cmt : cp ../bs/src/HumanPlayer-Game_new.cmt
+o HumanPlayer.re : cp ../../src/HumanPlayer.re
+o CS17SetupGame-Game_new.cmi : cp ../bs/src/CS17SetupGame-Game_new.cmi
+o CS17SetupGame-Game_new.cmj : cp ../bs/src/CS17SetupGame-Game_new.cmj
+o CS17SetupGame-Game_new.cmt : cp ../bs/src/CS17SetupGame-Game_new.cmt
+o CS17SetupGame.re : cp ../../src/CS17SetupGame.re
+o ReadLineSyncTest-Game_new.cmi : cp ../bs/src/ReadLineSyncTest-Game_new.cmi
+o ReadLineSyncTest-Game_new.cmj : cp ../bs/src/ReadLineSyncTest-Game_new.cmj
+o ReadLineSyncTest-Game_new.cmt : cp ../bs/src/ReadLineSyncTest-Game_new.cmt
+o ReadLineSyncTest.re : cp ../../src/ReadLineSyncTest.re
+o Game_new.cmi : cp ../bs/Game_new.cmi
+o Game_new.cmj : cp ../bs/Game_new.cmj
+o Game_new.cmt : cp ../bs/Game_new.cmt
+build install.stamp : touch Demo-Game_new.cmi Demo-Game_new.cmj Game-Game_new.cmi Game-Game_new.cmj Player-Game_new.cmi Player-Game_new.cmj Referee-Game_new.cmi Referee-Game_new.cmj AIPlayer-Game_new.cmi AIPlayer-Game_new.cmj Connect4-Game_new.cmi Connect4-Game_new.cmj HumanPlayer-Game_new.cmi HumanPlayer-Game_new.cmj CS17SetupGame-Game_new.cmi CS17SetupGame-Game_new.cmj ReadLineSyncTest-Game_new.cmi ReadLineSyncTest-Game_new.cmj Game_new.cmi Game_new.cmj
